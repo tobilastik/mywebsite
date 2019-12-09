@@ -1,38 +1,84 @@
-.App {
+.header-color {
+  background: -webkit-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #e55d87 10%, #5fc3e4 90%); /* IE10 */
+  background: -o-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #e55d87 10%, #5fc3e4 90%); /* W3C */
+}
+
+.landing-grid {
+  background: -webkit-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #e55d87 10%, #5fc3e4 90%); /* IE10 */
+  background: -o-linear-gradient(
+    90deg,
+    #e55d87 10%,
+    #5fc3e4 90%
+  ); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #e55d87 10%, #5fc3e4 90%); /* W3C */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar-container {
+  align-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.avatar-img {
+  height: 200px;
+  padding-top: 5em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner {
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  align-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-text {
+  color: whitesmoke;
+  font-size: 100px;
+  text-align: center;
+}
+
+.social i {
+  color: black;
+  font-size: 5em;
+  /* padding: 30px; */
+}
+
+.project-grid {
+  display: flex;
+  padding: 2em;
+}
+
+.container {
+  background-color: rgb(97, 66, 66);
+  padding: 20em;
 }
