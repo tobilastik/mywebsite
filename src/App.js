@@ -9,23 +9,23 @@ function App () {
     <div className="demo-big-content">
       <Layout>
 
-        <Header className="header-color" title="Raji Oluwatobiloba" scroll>
+        <Header
+          className="header-color"
+          title={
+            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>
+              Raji Oluwatobiloba
+            </Link>
+          }
+          scroll
+        >
           <Navigation>
-            <Link to="/">Home</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/blog">Blog</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/blog">Blog</Link>
-          </Navigation>
-        </Drawer>
+
         <Content>
           <div className="page-content" />
           <Main />

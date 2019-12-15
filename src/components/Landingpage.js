@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import {white} from 'ansi-colors';
 
 class Landingpage extends Component {
   render () {
