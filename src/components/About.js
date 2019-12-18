@@ -18,7 +18,8 @@ class About extends Component {
         <Typical
           className="about-text"
           steps={[
-            `I am an Experienced Software Developer with passion for solving problems I am an .`,
+            `I am an Experienced Software Developer with experience in Frontend technologies like React, React Native, 
+            Javascript ES6 and ES7, Redux, Python having worked in a.`,
             10000,
             1000,
           ]}
@@ -47,13 +48,32 @@ class About extends Component {
 
         <hr style={{borderTop: '3px solid red'}} />
         <h2>Skills</h2>
-
-        <div style={{margin: '1em'}}>
-          <Skills skill="Javascript" progress={80} />
-          <Skills skill="React Native" progress={80} />
-          <Skills skill="React" progress={70} />
-          <Skills skill="HTML/CSS" progress={60} />
-
+        <div>
+          <img
+            src={require ('../assets/python-logo.png')}
+            className="skills-img"
+          />
+          <img
+            src={require ('../assets/JavaScript-logo.png')}
+            className="skills-img"
+          />
+          <img
+            src={require ('../assets/React-logo.png')}
+            className="skills-img"
+          />
+          <img
+            src={require ('../assets/react-native-logo.png')}
+            className="skills-img"
+          />
+          <img
+            src={require ('../assets/redux-logo.jpg')}
+            className="skills-img"
+          />
+        </div>
+        <div className="footer">
+          <p>
+            Copyright © 2019 Raji Oluwatobiloba | All rights reserved.
+          </p>
         </div>
       </div>
     );
