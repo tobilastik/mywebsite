@@ -47,18 +47,9 @@ class About extends Component {
         </div>
 
         <hr style={{borderTop: '3px solid red'}} />
-        <h2>Skills</h2>
         <div>
           <img
-            src={require ('../assets/python-logo.png')}
-            className="skills-img"
-          />
-          <img
             src={require ('../assets/JavaScript-logo.png')}
-            className="skills-img"
-          />
-          <img
-            src={require ('../assets/React-logo.png')}
             className="skills-img"
           />
           <img
@@ -66,7 +57,16 @@ class About extends Component {
             className="skills-img"
           />
           <img
+            src={require ('../assets/React-logo.png')}
+            className="skills-img"
+          />
+
+          <img
             src={require ('../assets/redux-logo.jpg')}
+            className="skills-img"
+          />
+          <img
+            src={require ('../assets/python-logo.png')}
             className="skills-img"
           />
         </div>
