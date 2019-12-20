@@ -10,6 +10,9 @@ import {
   CardActions,
   Button,
 } from 'react-mdl';
+import Instagram from '../assets/instagram.png';
+import Picdetector from '../assets/picdetector.png';
+import Coleapp from '../assets/coleapp.png';
 
 class Porfolio extends Component {
   constructor (props) {
@@ -34,18 +37,35 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -56,18 +76,35 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Picdetector}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Pic Detector
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Pic Detector uses Machine Learning to guess what objects are in the photo or picture you upload...
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -78,18 +115,35 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
           </div>
@@ -103,18 +157,35 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Coleapp}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -125,18 +196,35 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -147,168 +235,38 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
-          </div>
-
-        </React.Fragment>
-      );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <React.Fragment>
-          <div className="project-grid">
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-          </div>
-        </React.Fragment>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <React.Fragment>
-          <div className="project-grid">
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-            <Card
-              shadow={3}
-              style={{width: '320px', height: '320px', margin: 'auto'}}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
-                }}
-              >
-                Update
-              </CardTitle>
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
-              </CardActions>
-            </Card>
-          </div>
+          </div>       {' '}
         </React.Fragment>
       );
     } else if (this.state.activeTab === 3) {
