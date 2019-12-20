@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
 import Confetti from 'react-confetti';
 import TextyAnim from 'rc-texty';
 import Banner from './Banner';
