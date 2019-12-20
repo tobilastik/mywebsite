@@ -13,6 +13,9 @@ import {
 import Instagram from '../assets/instagram.png';
 import Picdetector from '../assets/picdetector.png';
 import Coleapp from '../assets/coleapp.png';
+import Movieapp from '../assets/movieapp.png';
+import Ecommerce from '../assets/ecommerce.png';
+import Hotel from '../assets/hotel.png';
 
 class Porfolio extends Component {
   constructor (props) {
@@ -36,7 +39,7 @@ class Porfolio extends Component {
               <CardTitle
                 expand
                 style={{
-                  color: '#fff',
+                  color: '#000',
                   background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
@@ -75,7 +78,7 @@ class Porfolio extends Component {
               <CardTitle
                 expand
                 style={{
-                  color: '#fff',
+                  color: '#000',
                   background: `url(${Picdetector}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
@@ -88,7 +91,7 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://github.com/tobilastik/Instagram-clone',
+                      'https://github.com/tobilastik/pic-detector',
                       '_blank'
                     )}
                   colored
@@ -98,7 +101,7 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      'https://www.youtube.com/watch?v=IsycRAzBS5s',
                       '_blank'
                     )}
                   colored
@@ -115,19 +118,19 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
+                  background: `url(${Coleapp}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Instagram Clone
+                Quiz App
               </CardTitle>
               <CardText>
-                Instagram Clone with React Native powered by Expo.
+                Quiz and Lyrics App made with React Native Expo
               </CardText>
               <CardActions border>
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://github.com/tobilastik/Instagram-clone',
+                      'https://github.com/tobilastik/quotes-and-quiz-app',
                       '_blank'
                     )}
                   colored
@@ -137,7 +140,7 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      'https://www.youtube.com/watch?v=laoI6wN00AI&t=47s',
                       '_blank'
                     )}
                   colored
@@ -157,19 +160,20 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: `url(${Coleapp}) bottom right 15% no-repeat #46B6AC`,
+
+                  background: `url(${Movieapp}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Instagram Clone
+                Movie Search App
               </CardTitle>
               <CardText>
-                Instagram Clone with React Native powered by Expo.
+                A web app  for movies and series search, Built with React, Redux and OMDB API.
               </CardText>
               <CardActions border>
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://github.com/tobilastik/Instagram-clone',
+                      'https://github.com/tobilastik/moviesearch',
                       '_blank'
                     )}
                   colored
@@ -179,12 +183,12 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      'https://rajioluwatobi.netlify.com/',
                       '_blank'
                     )}
                   colored
                 >
-                  Live Showcase
+                  Visit Website
                 </Button>
               </CardActions>
             </Card>
@@ -196,19 +200,19 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
+                  background: `url(${Hotel}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Instagram Clone
+                Hotel Reservation  App
               </CardTitle>
               <CardText>
-                Instagram Clone with React Native powered by Expo.
+                Hotel Reservation Web Application made with React and Redux.
               </CardText>
               <CardActions border>
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://github.com/tobilastik/Instagram-clone',
+                      'https://github.com/tobilastik/hotel-webapp',
                       '_blank'
                     )}
                   colored
@@ -218,12 +222,12 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      'https://rajioluwatobi.netlify.com/',
                       '_blank'
                     )}
                   colored
                 >
-                  Live Showcase
+                  Visit Website
                 </Button>
               </CardActions>
             </Card>
@@ -234,11 +238,11 @@ class Porfolio extends Component {
               <CardTitle
                 expand
                 style={{
-                  color: '#fff',
-                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
+                  color: '#000',
+                  background: `url(${Ecommerce}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Instagram Clone
+                E-commerce Web App
               </CardTitle>
               <CardText>
                 Instagram Clone with React Native powered by Expo.
@@ -247,7 +251,7 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://github.com/tobilastik/Instagram-clone',
+                      'https://github.com/tobilastik/react-ecommerce',
                       '_blank'
                     )}
                   colored
@@ -257,19 +261,19 @@ class Porfolio extends Component {
                 <Button
                   onClick={() =>
                     window.open (
-                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      'https://rajioluwatobi.netlify.com/',
                       '_blank'
                     )}
                   colored
                 >
-                  Live Showcase
+                  Visit Website
                 </Button>
               </CardActions>
             </Card>
-          </div>       {' '}
+          </div>
         </React.Fragment>
       );
-    } else if (this.state.activeTab === 3) {
+    } else if (this.state.activeTab === 1) {
       return (
         <React.Fragment>
           <div className="project-grid">
@@ -280,19 +284,75 @@ class Porfolio extends Component {
               <CardTitle
                 expand
                 style={{
-                  color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  color: '#000',
+                  background: `url(${Instagram}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Instagram Clone
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Instagram Clone with React Native powered by Expo.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/Instagram-clone',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=UZadCzpu6ZE&t=2s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
+              </CardActions>
+            </Card>
+            <Card
+              shadow={3}
+              style={{width: '320px', height: '320px', margin: 'auto'}}
+            >
+              <CardTitle
+                expand
+                style={{
+                  color: '#000',
+                  background: `url(${Picdetector}) bottom right 15% no-repeat #46B6AC`,
+                }}
+              >
+                Pic Detector
+              </CardTitle>
+              <CardText>
+                Pic Detector uses Machine Learning to guess what objects are in the photo or picture you upload...
+              </CardText>
+              <CardActions border>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/pic-detector',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=IsycRAzBS5s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -303,18 +363,83 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Coleapp}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Quiz App
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Quiz and Lyrics App made with React Native Expo
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/quotes-and-quiz-app',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://www.youtube.com/watch?v=laoI6wN00AI&t=47s',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Live Showcase
+                </Button>
+              </CardActions>
+            </Card>
+          </div>
+        </React.Fragment>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <React.Fragment>
+
+          <div className="project-grid">
+            <Card
+              shadow={3}
+              style={{width: '320px', height: '320px', margin: 'auto'}}
+            >
+              <CardTitle
+                expand
+                style={{
+                  color: '#fff',
+
+                  background: `url(${Movieapp}) bottom right 15% no-repeat #46B6AC`,
+                }}
+              >
+                Movie Search App
+              </CardTitle>
+              <CardText>
+                A web app  for movies and series search, Built with React, Redux and OMDB API.
+              </CardText>
+              <CardActions border>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/moviesearch',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://rajioluwatobi.netlify.com/',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Visit Website
+                </Button>
               </CardActions>
             </Card>
             <Card
@@ -325,18 +450,74 @@ class Porfolio extends Component {
                 expand
                 style={{
                   color: '#fff',
-                  background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC',
+                  background: `url(${Hotel}) bottom right 15% no-repeat #46B6AC`,
                 }}
               >
-                Update
+                Hotel Reservation  App
               </CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
+                Hotel Reservation Web Application made with React and Redux.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Showcase</Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/hotel-webapp',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://rajioluwatobi.netlify.com/',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Visit Website
+                </Button>
+              </CardActions>
+            </Card>
+            <Card
+              shadow={3}
+              style={{width: '320px', height: '320px', margin: 'auto'}}
+            >
+              <CardTitle
+                expand
+                style={{
+                  color: '#000',
+                  background: `url(${Ecommerce}) bottom right 15% no-repeat #46B6AC`,
+                }}
+              >
+                E-commerce Web App
+              </CardTitle>
+              <CardText>
+                Instagram Clone with React Native powered by Expo.
+              </CardText>
+              <CardActions border>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://github.com/tobilastik/react-ecommerce',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Github
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open (
+                      'https://rajioluwatobi.netlify.com/',
+                      '_blank'
+                    )}
+                  colored
+                >
+                  Visit Website
+                </Button>
               </CardActions>
             </Card>
           </div>
@@ -356,13 +537,13 @@ class Porfolio extends Component {
           <Tab>All</Tab>
           <Tab>React Native</Tab>
           <Tab>React</Tab>
-          <Tab>Python</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
             {this.toggleProjects ()}
           </Cell>
         </Grid>
+
       </div>
     );
   }
