@@ -12,8 +12,11 @@ function App () {
         <Header
           className="header-color"
           title={
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>
-              Raji Oluwatobiloba
+            <Link
+              to="/"
+              style={{textDecoration: 'none', color: 'white', fontSize: '3em'}}
+            >
+              {'</>'}
             </Link>
           }
           scroll

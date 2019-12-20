@@ -2,16 +2,13 @@ import React, {Component} from 'react';
 import Typical from 'react-typical';
 import {ProgressBar} from 'react-mdl';
 import Skills from './Skills';
+import Pic from '../../src/assets/intro.jpeg';
 
 class About extends Component {
   render () {
     return (
       <div className="about-container">
-        <img
-          src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png"
-          alt="avatar"
-          className="about-img"
-        />
+        <img src={Pic} alt="avatar" className="about-img" />
         <h4 className="about-header">
           Hello there! my name is Raji Oluwatobiloba.
         </h4>
