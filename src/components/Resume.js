@@ -8,7 +8,7 @@ export class Resume extends Component {
   }
   componentDidMount () {
     window.open (
-      'https://drive.google.com/open?id=13ci2xDe4ldDJl_0aomAoprNWziNbPYcI',
+      'https://drive.google.com/open?id=18SdOoMmjdFy9_qALFLe2xTMAlpNsdVe3',
       '_blank'
     );
   }

@@ -210,3 +210,20 @@
     font-size: 4rem;
   }
 }
+
+.nav-links {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 30px;
+  color: wheat;
+}
+
+.nav-links:hover {
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+}
+
+.portfolio {
+  background-color: whitesmoke;
+}

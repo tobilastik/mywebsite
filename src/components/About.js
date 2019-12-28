@@ -31,14 +31,14 @@ class About extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i class="fa fa-linkedin-square" aria-hidden="true" />
+              <i className="fa fa-linkedin-square" aria-hidden="true" />
             </a>
             <a
               href="https://github.com/tobilastik"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i class="fa fa-github-square" aria-hidden="true" />
+              <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 
             <a
@@ -46,7 +46,7 @@ class About extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i class="fa fa-youtube-square" aria-hidden="true" />
+              <i className="fa fa-youtube-square" aria-hidden="true" />
             </a>
 
             <a
@@ -54,14 +54,14 @@ class About extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i class="fa fa-twitter-square" aria-hidden="true" />
+              <i className="fa fa-twitter-square" aria-hidden="true" />
             </a>
             <a
               href="https://www.instagram.com/tobilastik"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i class="fa fa-instagram" aria-hidden="true" />
+              <i className="fa fa-instagram" aria-hidden="true" />
             </a>
           </div>
 
