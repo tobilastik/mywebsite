@@ -3,6 +3,7 @@ import Instagram from '../assets/instagram.png';
 import Picdetector from '../assets/picdetector.png';
 import Coleapp from '../assets/coleapp.png';
 import Movieapp from '../assets/movieapp.png';
+import Chatapp from '../assets/chatapp.png';
 import Ecommerce from '../assets/ecommerce.png';
 import Hotel from '../assets/hotel.png';
 import Twitter from '../assets/twitter.jpeg';
@@ -57,6 +58,15 @@ const cards = [
     glink: 'https://github.com/tobilastik/apple-store-ecommerce',
     weblink: 'https://apple-stores.netlify.com/',
     image: Ecommerce,
+  },
+
+  {
+    id: 8,
+    name: 'Chatting Application',
+    details: ' A Chatting Web Application implemented with React, React Context API, React Hooks, SocketIO and Node.',
+    glink: 'https://github.com/tobilastik/Chat-app',
+    weblink: 'https://chatsapp.netlify.com/',
+    image: Chatapp,
   },
 
   {
