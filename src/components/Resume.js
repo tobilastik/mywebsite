@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Background from './Background';
 
-export class Resume extends Component {
+export default class Resume extends Component {
   constructor (props) {
     super (props);
     this.state = {...props};
@@ -16,5 +16,3 @@ export class Resume extends Component {
     return <Background />;
   }
 }
-
-export default Resume;
