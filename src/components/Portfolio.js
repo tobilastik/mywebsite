@@ -60,14 +60,14 @@ const cards = [
     image: Ecommerce,
   },
 
-  {
-    id: 8,
-    name: 'Chatting Application',
-    details: ' A Chatting Web Application implemented with React, React Context API, React Hooks, SocketIO and Node.',
-    glink: 'https://github.com/tobilastik/Chat-app',
-    weblink: 'https://chatsapp.netlify.com/',
-    image: Chatapp,
-  },
+  // {
+  //   id: 8,
+  //   name: 'Chatting Application',
+  //   details: ' A Chatting Web Application implemented with React, React Context API, React Hooks, SocketIO and Node.',
+  //   glink: 'https://github.com/tobilastik/Chat-app',
+  //   weblink: 'https://chatsapp.netlify.com/',
+  //   image: Chatapp,
+  // },
 
   {
     id: 2,
@@ -87,14 +87,14 @@ const cards = [
     image: Hotel,
   },
 
-  {
-    id: 4,
-    name: 'Twitter Clone',
-    details: ' A twitter clone web app with React, Redux and Twitter APIs .',
-    glink: 'https://github.com/tobilastik/twitter-clone',
-    weblink: 'https://clonedtwitter.netlify.com/',
-    image: Twitter,
-  },
+  // {
+  //   id: 4,
+  //   name: 'Twitter Clone',
+  //   details: ' A twitter clone web app with React, Redux and Twitter APIs .',
+  //   glink: 'https://github.com/tobilastik/twitter-clone',
+  //   weblink: 'https://clonedtwitter.netlify.com/',
+  //   image: Twitter,
+  // },
 
   {
     id: 5,

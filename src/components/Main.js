@@ -3,7 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import Landingpage from './Landingpage';
 import About from './About';
 import Portfolio from './Portfolio';
-import {Resume} from './Resume';
+import Resume from './Resume';
 
 const Main = () => (
   <Switch>
