@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
-import Confetti from 'react-confetti';
-import TextyAnim from 'rc-texty';
-import Banner from './Banner';
-import Background from './Background';
+import React, { Component } from "react";
 
-const text = 'Mobile & Web Developer.';
+import TextyAnim from "rc-texty";
+import Banner from "./Banner";
+import Background from "./Background";
+
+const text = "Mobile Developer.";
 
 class Landingpage extends Component {
-  render () {
+  render() {
     return (
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div style={{ width: "100%", margin: "auto" }}>
         <Background>
           <Banner
             title="Hello, my name is Raji Oluwatobiloba,"
@@ -18,29 +18,27 @@ class Landingpage extends Component {
             <TextyAnim
               className="info-text"
               type="mask-top"
-              duration={e => {
+              duration={(e) => {
                 if (e.index === 1) {
                   return 5000;
                 }
                 return 5000;
               }}
-              interval={e => {
+              interval={(e) => {
                 if (e.index === 2) {
                   return 5000;
                 }
                 return e.index * 500;
               }}
-              onEnd={type => {
+              onEnd={(type) => {
                 // tslint:disable-next-line
-                console.log (type);
+                console.log(type);
               }}
             >
               {text}
             </TextyAnim>
           </Banner>
         </Background>
-
-        <Confetti numberOfPieces={1000} />
       </div>
     );
   }

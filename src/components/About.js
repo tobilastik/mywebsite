@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
-import Typical from 'react-typical';
-import Pic from '../../src/assets/intro.jpeg';
-import Background from './Background';
+import React, { Component } from "react";
+import Typical from "react-typical";
+import Pic from "../../src/assets/intro.jpeg";
+import Background from "./Background";
 
 class About extends Component {
-  render () {
+  render() {
     return (
       <Background>
         <div className="about-container">
@@ -12,19 +12,16 @@ class About extends Component {
           <h4 className="about-header">
             Hello there! my name is Raji Oluwatobiloba.
           </h4>
-          <Typical
-            className="about-text"
-            steps={[
-              `I am an Experienced Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Frontend technologies such as React, React Native, 
-            Javascript ES6 and ES7, Redux, CSS Preprocessing, Responsive design and sometimes I dabble myself in Python.
-            Enthusiastic about using clean, elegant, code to solve complex real-world problems. 
-            An energetic and passionate developer who is driven, can meet strict deadlines and has excellent delivery.`,
-              10000,
-              1000,
-            ]}
-            // loop={Infinity}
-            wrapper="p"
-          />
+          <h4 className="about-text">
+            I am an Experienced Software Developer with a demonstrated history
+            of working in the information technology and services industry.
+            Skilled in Mobile app technologies such as React Native, Flutter and
+            Swift Programming language. Enthusiastic about using clean, elegant,
+            code to solve complex real-world problems. An energetic and
+            passionate developer who is driven, can meet strict deadlines and
+            has excellent delivery.
+          </h4>
+
           <div className="social-links">
             <a
               href="https://www.linkedin.com/in/raji-oluwatobiloba/"
@@ -65,13 +62,10 @@ class About extends Component {
             </a>
           </div>
 
-          <hr style={{borderTop: '3px solid red'}} />
+          <hr style={{ borderTop: "3px solid red" }} />
           <div className="footer">
-            <p>
-              Copyright © 2019 Raji Oluwatobiloba | All rights reserved.
-            </p>
+            <p>Copyright © 2020 Raji Oluwatobiloba | All rights reserved.</p>
           </div>
-
         </div>
       </Background>
     );

@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "rc-texty": "^0.2.0",
     "react": "^16.12.0",
-    "react-confetti": "^5.0.1",
+    "react-confetti": "^6.0.0",
     "react-dom": "^16.12.0",
     "react-easy-flip": "^1.1.1",
     "react-mdl": "^1.11.0",
