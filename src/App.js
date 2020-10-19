@@ -31,7 +31,7 @@ function App() {
               {"</>"}
             </Typography>
             <div>
-              <Link className="nav-links" to="/about">
+              <Link className="nav-links" to="/">
                 Home
               </Link>
               {/* <Link className="nav-links" to="/">Home</Link> */}
