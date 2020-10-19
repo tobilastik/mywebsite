@@ -139,9 +139,11 @@
 }
 
 .about-img {
-  height: 450px;
-  width: 350px;
+  height: 200px;
   padding-top: 2em;
+  /* image-orientation: from-image;
+  image-orientation: none;
+  image-orientation: from-image; */
   align-items: center;
 }
 
