@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import Pic from "../../src/assets/intro.jpeg";
+import Pic from "../../src/assets/tobi.JPG";
 import Background from "./Background";
 
 class About extends Component {
