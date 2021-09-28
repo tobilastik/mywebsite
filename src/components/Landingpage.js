@@ -12,7 +12,7 @@ class Landingpage extends Component {
         <Background>
           <Banner
             title="Hello, my name is Raji Oluwatobiloba,"
-            subtitle="I am a Mobile Application Developer"
+            subtitle="I am a Software Engineer"
           ></Banner>
         </Background>
       </div>

@@ -34,12 +34,12 @@ function App() {
               <Link className="nav-links" to="/">
                 Home
               </Link>
-              {/* <Link className="nav-links" to="/">Home</Link> */}
-              <Link className="nav-links" to="/portfolio">
-                Portfolio
+              <Link className="nav-links" to="/about">About</Link>
+              <Link className="nav-links" to="/blog">
+                Blog
               </Link>
               <Link className="nav-links" to="/resume">
-                Blog
+                Resume
               </Link>
             </div>
           </Toolbar>

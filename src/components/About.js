@@ -15,8 +15,8 @@ class About extends Component {
           <h4 className="about-text">
             I am an Experienced Software Developer with a demonstrated history
             of working in the information technology and services industry.
-            Skilled in Mobile app technologies such as React Native, Flutter and
-            Swift Programming language. Enthusiastic about using clean, elegant,
+            Skilled in technologies such as JavaScript(React, React Native, TypeScript, Node JS), Python and Swift.
+            Enthusiastic about using clean, elegant,
             code to solve complex real-world problems. An energetic and
             passionate developer who is driven, can meet strict deadlines and
             has excellent delivery.
@@ -64,7 +64,7 @@ class About extends Component {
 
           <hr style={{ borderTop: "3px solid red" }} />
           <div className="footer">
-            <p>Copyright © 2020 Raji Oluwatobiloba | All rights reserved.</p>
+            <p>Copyright © 2021 Raji Oluwatobiloba | All rights reserved.</p>
           </div>
         </div>
       </Background>
