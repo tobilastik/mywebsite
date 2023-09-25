@@ -13,9 +13,9 @@ class About extends Component {
             Hello there! my name is Raji Oluwatobiloba.
           </h4>
           <h4 className="about-text">
-            I am an Experienced Software Developer with a demonstrated history
+            I am an Experienced Mobile Software Engineer with a demonstrated history
             of working in the information technology and services industry.
-            Skilled in technologies such as JavaScript(React, React Native, TypeScript, Node JS), Python and Swift.
+            Skilled in technologies such as JavaScript(React, React Native, TypeScript) and Swift(Swift, SwiftUI).
             Enthusiastic about using clean, elegant,
             code to solve complex real-world problems. An energetic and
             passionate developer who is driven, can meet strict deadlines and
@@ -38,33 +38,11 @@ class About extends Component {
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 
-            <a
-              href="https://www.youtube.com/channel/UCcPhLPz-YGOIHJ-xceWRimA?view_as=subscriber"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-youtube-square" aria-hidden="true" />
-            </a>
-
-            <a
-              href="https://twitter.com/tobilastik"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-twitter-square" aria-hidden="true" />
-            </a>
-            <a
-              href="https://www.instagram.com/tobilastik"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-instagram" aria-hidden="true" />
-            </a>
           </div>
 
           <hr style={{ borderTop: "3px solid red" }} />
           <div className="footer">
-            <p>Copyright © 2021 Raji Oluwatobiloba | All rights reserved.</p>
+            <p>Copyright © 2023 Oluwatobiloba Raji | All rights reserved.</p>
           </div>
         </div>
       </Background>

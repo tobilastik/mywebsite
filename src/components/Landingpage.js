@@ -11,8 +11,8 @@ class Landingpage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Background>
           <Banner
-            title="Hello, my name is Raji Oluwatobiloba,"
-            subtitle="I am a Software Engineer"
+            title="Hello, my name is Tobi"
+            subtitle="I am a Mobile Software Engineer"
           ></Banner>
         </Background>
       </div>

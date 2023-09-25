@@ -38,9 +38,6 @@ function App() {
               <Link className="nav-links" to="/blog">
                 Blog
               </Link>
-              <Link className="nav-links" to="/resume">
-                Resume
-              </Link>
             </div>
           </Toolbar>
         </AppBar>
